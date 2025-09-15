@@ -5,42 +5,20 @@
   font-style: normal;
 }
 
-body, html {
-    margin: 0%;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.homepage {
-  display: flex;
-}
-
-/* The section with image + description */
-.intro {
-  flex: 1; /* take all available space not used by homebar */
-  width: 94.7%;
-  flex-direction: column;
+.tophalf{
+  width: 100%;
+  height: 95.7%;
 }
 
 .homeimage {
-  width: 93.5%;       /* span entire width */
-  height: 20%;
-  object-fit: cover;
+  width: 90%;       
+  height: 540px;
+  
   margin: 2%;
-  margin-right: 0;
 }
 
-/* Description stays below the image */
-.description {
-  max-width: 60%;    /* keeps text from stretching too wide */
-  margin-top:0;
-  margin-bottom: 0;
-  
-  margin-left: 5%;
-  font-size: 20px;
-  
-  line-height: 1.5;
+.content {
+  padding: 1em;
 }
 
 .quote {
@@ -50,31 +28,29 @@ body, html {
   border-left: 1px solid black;
   padding-left: 1%;
   margin-left: 10%;
-  margin-top: 0.2%;
+  margin-top: 0.2%;  
+}
+
+.divider{
+  width: 70%;
+
+}
+
+.secondhalf{
+  width:94.7%;
+}
+
+.description {
+  margin-top:0;
+  margin-left: 5%;
   
-}
-
-.content {
-  margin-right: 5%;   /* same width as your .homebar */
-  padding: 1em;
-}
-
-.divider {
-  width: 100%;           
-  border-top: 2px solid black;
-   
-}
-
-.profile{
-  position:absolute;
-  width:42%;
-  height: 42%;
-  right:10%;
-  margin-bottom: 2%;
-  margin-top: -2%;
   font-size: 20px;
-  border: 0;
-  border-radius:1em;
+  
+  line-height: 1.5;
+}
+
+.bottom{
+  display: flex;
 }
 
 .para{
@@ -84,6 +60,8 @@ body, html {
   line-height: 1.5;
 }
 
-.secondhalf{
-  width:94.7%;
+.profile{  
+  width:42%;
+  border-radius:1em;
+  margin-left:5%;
 }
