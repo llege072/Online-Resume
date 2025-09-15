@@ -5,7 +5,7 @@ function HomePage() {
 
     function Home(){
         return(
-            <div>
+            <div page>
                 <div className="tophalf">
                     <img src="/imgs/willsmith.png" className="homeimage" />
                 
@@ -44,10 +44,10 @@ function HomePage() {
 
 
     return (
-        <div className="homepage" >
-            <HomeBar />
+        
+            
             <Home />
-        </div>
+       
     );
 }
 

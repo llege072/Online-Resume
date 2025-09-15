@@ -5,13 +5,13 @@
   font-style: normal;
 }
 
+
 .tophalf{
-  width: 100%;
-  height: 95.7%;
+  width: 96%;
 }
 
 .homeimage {
-  width: 90%;       
+  width: 100%;       
   height: 540px;
   
   margin: 2%;
@@ -33,6 +33,7 @@
 
 .divider{
   width: 70%;
+  border: 1px solid black;
 
 }
 

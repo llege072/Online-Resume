@@ -21,18 +21,33 @@ function AboutMe(){
             networking: ["Protocols", "Subnetting"]
         }
     };
-    
-    return(
-        <div className="page">
-            <HomeBar />
+
+    function About(){
+        return (
             <div className="content">
                 <div className="json-box">
                     <ReactJson src={data} theme="monokai" collapsed={false} />
                 </div>
-                <div>
-                    Hello
+                <div className="main">
+                   Hello 
                 </div>
             </div>
+        )
+    }
+    /* 
+    return (
+        <div className="homepage" >
+            <HomeBar />
+            <Home />
+        </div>
+    );
+    */
+
+    
+    return(
+        <div className="aboutpage">
+            <HomeBar />
+            <About />
         </div>
     )
 

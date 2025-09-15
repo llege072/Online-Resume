@@ -5,11 +5,15 @@
 }
 
 .json-box{
-    border: 1px solid black;
+    border: 1px solid rgb(39, 40, 34);
     border-radius: 2em;
-    object-fit: fill;
-    width: 25%;
-    background-color: rgb(50, 36, 36);
-    padding: 1%;
+    object-fit: cover;
+    width: 60%;
+    
+    background-color: rgb(39, 40, 34);
+    padding: 3%;
+    
 }
+
+
 
