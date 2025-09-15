@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    padding-right: 0;
+        
+}
+
+.json-box{
+    border: 1px solid black;
+    border-radius: 2em;
+    object-fit: fill;
+    width: 25%;
+    background-color: rgb(50, 36, 36);
+    padding: 1%;
+}
+

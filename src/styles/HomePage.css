@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Garamond';
+  src: url('/public/fonts/garamond_[allfont.ru].ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.homepage {
+  display: flex;
+}
+
+/* The section with image + description */
+.intro {
+  flex: 1; /* take all available space not used by homebar */
+  width: 94.7%;
+  flex-direction: column;
+}
+
+.homeimage {
+  width: 93.5%;       /* span entire width */
+  height: 20%;
+  object-fit: cover;
+  margin: 2%;
+  margin-right: 0;
+}
+
+/* Description stays below the image */
+.description {
+  max-width: 60%;    /* keeps text from stretching too wide */
+  margin-top:0;
+  margin-bottom: 0;
+  
+  margin-left: 5%;
+  font-size: 20px;
+  
+  line-height: 1.5;
+}
+
+.quote {
+  white-space: pre-line;
+  font-size: 1.2rem;
+  font-family: 'Garamond';
+  border-left: 1px solid black;
+  padding-left: 1%;
+  margin-left: 10%;
+  margin-top: 0.2%;
+  
+}
+
+.content {
+  margin-right: 5%;   /* same width as your .homebar */
+  padding: 1em;
+}
+
+.divider {
+  width: 100%;           
+  border-top: 2px solid black;
+   
+}
+
+.profile{
+  position:absolute;
+  width:42%;
+  height: 42%;
+  right:10%;
+  margin-bottom: 2%;
+  margin-top: -2%;
+  font-size: 20px;
+  border: 0;
+  border-radius:1em;
+}
+
+.para{
+  margin-top: 0;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.secondhalf{
+  width:94.7%;
+}
