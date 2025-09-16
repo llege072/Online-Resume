@@ -1,11 +1,10 @@
 :root{
     --homebar--width: 8vw;
-    background-color: rgb(99,99,99);
+    background-color: rgb(39, 40, 34)
 }
 
 .layout{
     display: flex;
-    margin-right: 5vw;
     
 }
 

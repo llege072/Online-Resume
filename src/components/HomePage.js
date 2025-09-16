@@ -5,7 +5,7 @@ function HomePage() {
 
     function Home(){
         return(
-            <div page>
+            <div >
                 <div className="tophalf">
                     <img src="/imgs/willsmith.png" className="homeimage" />
                 
@@ -43,12 +43,7 @@ function HomePage() {
     }
 
 
-    return (
-        
-            
-            <Home />
-       
-    );
+    return (<Home />);
 }
 
 export default HomePage

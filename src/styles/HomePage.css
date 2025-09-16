@@ -1,10 +1,11 @@
+@import './variables.css';
+
 @font-face {
   font-family: 'Garamond';
   src: url('/public/fonts/garamond_[allfont.ru].ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 
 .tophalf{
   width: 96%;
@@ -28,12 +29,14 @@
   border-left: 1px solid black;
   padding-left: 1%;
   margin-left: 10%;
-  margin-top: 0.2%;  
+  margin-top: 0.2%; 
+  
+  color: var(--text-color);
 }
 
 .divider{
   width: 70%;
-  border: 1px solid black;
+  border: 1px solid white;
 
 }
 
@@ -48,6 +51,8 @@
   font-size: 20px;
   
   line-height: 1.5;
+
+  color: var(--text-color);
 }
 
 .bottom{
@@ -59,6 +64,8 @@
   margin-left: 5%;
   font-size: 20px;
   line-height: 1.5;
+
+  color: var(--text-color);;
 }
 
 .profile{  
