@@ -11,7 +11,7 @@ function AboutMe(){
             web: ["React", "Node.js", "HTML", "CSS"],
             data: ["SQL", "Pandas", "NumPy"],
             tools: ["Git", "Docker","Scikit Learn", "VSCode", "Excel"],
-            networking: ["Basic network systems", "infrastructure management    "]
+            networking: ["Basic network systems", "Infra management"]
         },
         interests: {
             web: ["Full Stack", "Databases", "UI design"],
@@ -26,7 +26,9 @@ function AboutMe(){
                 <div className="json-box">
                     <ReactJson src={data} theme="monokai" collapsed={false} />
                 </div>
-                
+                <div className="box">
+                    
+                </div>
                 
             </div>
         )

@@ -1,26 +1,29 @@
 @import './variables.css';
 
+.content{
+    display: flex;
+}
 
 .json-box{
     border: 1px solid black;
     border-radius: 2em;
     object-fit: cover;
-    width: 60%;
+    width: 14%;
     
     background-color: rgb(39, 40, 34);
     padding: 3%;
     
 }
 
-.content{
-    display: flex;
+.box{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 69vw;
+    height: auto;
+    background-color: darkgrey;
+    border: 2px solid grey;
+    border-radius: 1em;
 }
-
-.main{
-    border: 2px solid black;
-    
-}
-
 
 
 
