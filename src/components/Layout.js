@@ -5,7 +5,7 @@ function Layout({children}) {
     return(
 
         <div className="layout">
-            <div className="layout_content">{children}</div>
+            <div className="layout-content">{children}</div>
             <HomeBar />
         </div>
     )
