@@ -1,12 +1,11 @@
 
-
+import "../styles/ContactMe.css"
 
 function ContactMe(){
 
     return(
-        <div>
-           
-            <div>Contact</div>
+        <div className="main_page" >
+            Hello
         </div>
     )
 

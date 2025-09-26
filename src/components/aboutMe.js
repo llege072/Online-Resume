@@ -8,15 +8,10 @@ function AboutMe(){
         field: "Computer Science",
         skills: {
             languages: ["Python", "JavaScript", "C++"],
-            web: ["React", "Node.js", "HTML", "CSS"],
+            web: ["React", "Node.js"],
             data: ["SQL", "Pandas", "NumPy"],
             tools: ["Github", "Docker", "Scikit Learn","Pandas/Numpy"],
             networking: ["Basic network systems", "Infra management"]
-        },
-        interests: {
-            web: ["Full Stack", "Databases", "UI design"],
-            AI: ["Supervised Learning"],
-            networking: ["Protocols", "Subnetting"]
         }
     };
 
@@ -67,15 +62,35 @@ function AboutMe(){
                     </div>
                     
                     <div className="about-card">
-                        <h2>What I'm Good At</h2>                    
+                        <h2>What I'm Good At and what I enjoy</h2>
+                        <p>Full-stack Developement:</p>
+                        <li>Back-end Developement: SQL, MySQL, PostgreSQL, Flask, Node.js</li>
+                        <li>Front-end Developement: React, CSS, HTML, JSX</li>
+                        
+                        <br />
+                        
+                        <p>AI and Data Analysis:</p>
+                        <li>Supervised Learning: Linear Regression, Logistic Regression</li>
+                        <li>Unsupervised Learning: K-mean</li>
+                        <li>Data Analysis: Python, Pandas, NumPy, MatPlotLib</li>
                     </div>
 
                     <div className="about-card">
-                        <h2>Experience & Projects</h2>
+                        <h2>Projects</h2>
                     </div>
                     
                     <div className="about-card">
-                        <h2>What I'm Looking For</h2>                    
+                        <h2>What I'm Looking For</h2>
+                          
+                        <p>I'm still not sure as to where I'd like to position myself in the job market, but my experiences have shown me there is a wide range
+                        of career opportunities in technology.</p>
+                        
+                        <br />
+                        
+                        <p>After 2 internships in internal IT roles, I discovered a passion for utilizing AI in business operations 
+                        and letting it help us on understanding every day business activities and how we can improve them. I've also discoverd a passion for developing tools that simplify and solve every day problems.
+                        For example, I built a Docker containerized Full Stack application to help me track my assignments in a accesible and simple way utilizing
+                        React, MySQL and Flask.</p>  
                     </div>
                 </div>
             </div>
