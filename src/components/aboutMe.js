@@ -18,19 +18,19 @@ function AboutMe(){
     const customTheme = {
 
         // background
-        base00: "#F5F1ED",      
+        base00: "black",      
         
         //num of items
-        base04: "#000",
+        base04: "#20C20E",
 
         //color of column 
-        base07: "#000",
+        base07: "#20C20E",
 
         //Values
-        base09: "#000", 
-
-        base01:"#000",
-        base02: "#000",
+        base09: "#20C20E",
+         
+        base01:"#20C20E",
+        base02: "#20C20E",
         base03: "#000",
         base05: "#000",      
         base06: "#000",        
@@ -49,48 +49,59 @@ function AboutMe(){
                 <div className="json-box">
                     <ReactJson src={data} theme={customTheme} collapsed={false} />
                 </div>
-                <div className="about-container">
+                <div>
                     <div className="about-card">
-                        <h2>Who I Am</h2>
-                        <p>Hi there! My name is Landon Leger, I grew up in Cornwall Ontario Canada.
-                           After graduating highschool, I had a feeling Computer Science with an option in Managament
-                           and entrepreneurship would open many career doors
-                        </p>
-                        <br/>   
-                        <p>Throughout my few years, I have learned (no pun intended) that learning is not getting A+s, it is the capability of utilizing what you have learned and applying it in your everyday life. Driven by motivation, I hope to contribute positively to the everyday applications of AI and business analytics.</p>
-                        
+                        <div className="about-card-text">
+                            <h2>Who I Am</h2>
+                            <p>Hi there! My name is Landon Leger, I grew up in Cornwall Ontario Canada.
+                            After graduating highschool, I had a feeling Computer Science with an option in Managament
+                            and entrepreneurship would open many career doors
+                            </p>
+                            <br/>   
+                            <p>Throughout my few years, I have learned (no pun intended) that learning is not getting A+s, it is the capability of utilizing what you have learned and applying it in your everyday life. Driven by motivation, I hope to contribute positively to the everyday applications of AI and business analytics.</p>
+                        </div>
                     </div>
                     
                     <div className="about-card">
-                        <h2>What I'm Good At and what I enjoy</h2>
-                        <p>Full-stack Developement:</p>
-                        <li>Back-end Developement: SQL, MySQL, PostgreSQL, Flask, Node.js</li>
-                        <li>Front-end Developement: React, CSS, HTML, JSX</li>
+                        <div className="about-card-text">
+                            <h2>Experience In</h2>
+                            <h3>Full-stack Developement:</h3>
+                            <p>Back-end Developement: SQL, MySQL, PostgreSQL, Flask, Node.js</p>
+                            <p>Front-end Developement: React, CSS, HTML, JS</p>
                         
-                        <br />
-                        
-                        <p>AI and Data Analysis:</p>
-                        <li>Supervised Learning: Linear Regression, Logistic Regression</li>
-                        <li>Unsupervised Learning: K-mean</li>
-                        <li>Data Analysis: Python, Pandas, NumPy, MatPlotLib</li>
-                    </div>
+                            <h3>AI and Data Analysis:</h3>
+                            <p>Supervised Learning: Linear Regression, Logistic Regression</p>
+                            <p>Unsupervised Learning: K-mean</p>
+                            <p>Data Analysis: Python, Pandas, NumPy, MatPlotLib</p>
 
-                    <div className="about-card">
-                        <h2>Projects</h2>
+                            <h3>OOP programming and Data structures:</h3>
+                            <p>Utilize OOP in different languages like Python, Java, JavaScript, C++</p>
+                            <p>Unsupervised Learning: K-mean</p>
+                            <p>Data Analysis: Python, Pandas, NumPy, MatPlotLib</p>
+                        </div>
                     </div>
                     
                     <div className="about-card">
-                        <h2>What I'm Looking For</h2>
+                        <div className="about-card-text">
+                            <h2>What I'm Looking For</h2>
                           
-                        <p>I'm still not sure as to where I'd like to position myself in the job market, but my experiences have shown me there is a wide range
-                        of career opportunities in technology.</p>
+                            <p>I'm still not sure as to where I'd like to position myself in the job market, but my experiences have shown me there is a wide range
+                            of career opportunities in Technology.</p>
                         
-                        <br />
+                            <br />
                         
-                        <p>After 2 internships in internal IT roles, I discovered a passion for utilizing AI in business operations 
-                        and letting it help us on understanding every day business activities and how we can improve them. I've also discoverd a passion for developing tools that simplify and solve every day problems.
-                        For example, I built a Docker containerized Full Stack application to help me track my assignments in a accesible and simple way utilizing
-                        React, MySQL and Flask.</p>  
+                            <p>After 2 internships in internal IT roles, a discovered passion for building 
+                            and utilizing AI in both business and private settings, a motivation to create 
+                            tools that help and simplify our lifes in multiple ways found by creating a 
+                            containerized Assignment-Class organizer utilizing Flask and React.
+                            </p>
+
+                            <br />
+
+                            <p>I hope to be able to apply and grow my knowledge in a working setting
+                               that allows me to be innovative, confident and supported, 
+                               surrounded by a team of like-minded people.</p>
+                        </div>
                     </div>
                 </div>
             </div>
