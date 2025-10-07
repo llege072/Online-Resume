@@ -12,4 +12,7 @@
     padding-right: var(--homebar--width);
 
     display: flex;
+
+    width:auto;
+    height: auto;
     }

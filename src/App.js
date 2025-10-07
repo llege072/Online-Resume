@@ -6,7 +6,8 @@ import AboutMe from "./components/aboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 
-function App() {
+export default function App() {
+ 
   return (
     <Router>
       <Layout>
@@ -21,5 +22,3 @@ function App() {
     </Router>
     );
 }
-
-export default App;

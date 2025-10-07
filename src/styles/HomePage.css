@@ -7,9 +7,6 @@
   font-style: normal;
 }
 
-.tophalf{
-  width: 96%;
-}
 
 .homeimage {
   width: 95%;       
@@ -18,30 +15,24 @@
   margin: 2%;
 }
 
-.content {
-  padding: 1em;
-}
-
-.quote {
-  white-space: pre-line;
+.quote { 
   font-size: 1.2rem;
   font-family: 'Garamond';
-  border-left: 1px solid black;
+  
+  
+  border-left: 1px solid white;
   padding-left: 1%;
+  
   margin-left: 10%;
   margin-top: 0.2%; 
   
-  color: var(--text-color);
+  color: var(--p-color);
 }
 
 .divider{
   width: 70%;
+  
   border: 1px solid white;
-
-}
-
-.secondhalf{
-  width:94.7%;
 }
 
 .description {
@@ -52,7 +43,7 @@
   
   line-height: 1.5;
 
-  color: var(--text-color);
+  color: var(--p-color);
 }
 
 .bottom{
@@ -65,11 +56,13 @@
   font-size: 20px;
   line-height: 1.5;
 
-  color: var(--text-color);;
+  color: var(--p-color);;
 }
 
 .profile{  
-  width:42%;
+  width:40%;
   border-radius:1em;
   margin-left:5%;
+
+  margin-bottom: 5%;
 }
