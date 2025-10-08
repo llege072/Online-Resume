@@ -7,24 +7,22 @@
   font-style: normal;
 }
 
-
 .homeimage {
   width: 95%;       
-  height: 540px;
+  height: 33.75rem;
   
-  margin: 2%;
+  margin: 1.25rem;
 }
 
 .quote { 
   font-size: 1.2rem;
   font-family: 'Garamond';
   
-  
   border-left: 1px solid white;
-  padding-left: 1%;
+  padding-left: 0.625rem;
   
-  margin-left: 10%;
-  margin-top: 0.2%; 
+  margin-left: 6.25rem;
+  margin-top: 0.125rem; 
   
   color: var(--p-color);
 }
@@ -37,9 +35,9 @@
 
 .description {
   margin-top:0;
-  margin-left: 5%;
+  margin-left: 3.125rem;
   
-  font-size: 20px;
+  font-size: 1.25rem;
   
   line-height: 1.5;
 
@@ -51,18 +49,20 @@
 }
 
 .para{
-  margin-top: 0;
-  margin-left: 5%;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
+
+  margin-top: 0;
+  margin-left: 3.125rem;
 
   color: var(--p-color);;
 }
 
 .profile{  
   width:40%;
-  border-radius:1em;
-  margin-left:5%;
-
-  margin-bottom: 5%;
+  
+  border-radius:1rem;
+  
+  margin-left:3.125rem;
+  margin-bottom: 3.125rem;
 }

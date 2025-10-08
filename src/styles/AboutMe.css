@@ -1,7 +1,5 @@
 @import './variables.css';
 
-
-
 .content{
     display: flex;
     
@@ -12,19 +10,15 @@
 }
 
 .json-box{
-    flex: 0 0 20%;
-    
-    border: 2px solid black;
-    border-radius: 2em;
+    flex: 0 0 25%;
+      
+    border-radius: 2rem;
     
     background-color: black;
     
-    padding: 2%; 
-    padding-top:1%;
-
+    padding: 1.25rem;
+    padding-top: 0.625rem;
 }
-
-
 
 .about-card{
     flex: 1 1 calc(50% - 1.5rem);
@@ -32,10 +26,10 @@
     background: #000;
    
     border: 2px solid #000;
-    border-radius: 1em;
+    border-radius: 1rem;
    
 
-    margin: 1em;
+    margin: 1rem;
     margin-top: 0;
     width: auto;
     height: auto;
@@ -49,8 +43,6 @@
     font-weight: bold;
 
     color: #20C20E;
-    
-
 }
 
 .about-card p {
@@ -61,9 +53,10 @@
 
 .about-card li {
     margin: 0;
-    padding: 0; 
-    font-size: 15px;
     
+    padding: 0; 
+    
+    font-size: 0.9375rem;
 
     list-style-type: none;
 }
@@ -75,7 +68,7 @@
 }
 
 .about-card-text{
-    padding: 2%;
+    padding: 1.25rem;
 }
 
 

@@ -7,10 +7,11 @@ function AboutMe(){
         name: "Landon Leger",
         field: "Computer Science",
         skills: {
-            languages: ["Python", "JavaScript", "C++"],
+            languages: ["Python", "JS", "C++"],
             web: ["React", "Node.js"],
             data: ["SQL", "Pandas", "NumPy"],
-            tools: ["Github", "Docker", "Scikit Learn","Pandas/Numpy"],
+            tools: ["Github", "Docker"],
+            AI: ["Scikit", "Pytorch"],
             networking: ["Basic network systems", "Infra management"]
         }
     };
@@ -75,7 +76,7 @@ function AboutMe(){
                             <p>Data Analysis: Python, Pandas, NumPy, MatPlotLib</p>
 
                             <h3>OOP programming and Data structures:</h3>
-                            <p>Utilize OOP in different languages like Python, Java, JavaScript, C++</p>
+                            <p>Utilize OOP in different languages like Python, Java, JS, C++</p>
                             <p>Unsupervised Learning: K-mean</p>
                             <p>Data Analysis: Python, Pandas, NumPy, MatPlotLib</p>
                         </div>
